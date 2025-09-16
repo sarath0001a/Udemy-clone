@@ -46,9 +46,10 @@ body {
     gap: 10px;
     align-items: center;
 }
-.navbar__s4{
+
+.navbar__s4 {
     display: none;
-    
+
 }
 
 .categories {
@@ -68,10 +69,10 @@ body {
 
 }
 
-.categories p:hover{
+.categories p:hover {
     transition: 1s;
     background-color: transparent;
-    color:black;
+    color: black;
     border: solid mediumorchid;
 }
 
@@ -186,32 +187,42 @@ body {
 /* Media Queries */
 
 @media screen and (max-width:1000px) {
-    body{
+    body {
         font-size: 10px;
+
     }
-    
+
+   
 }
-@media screen and (max-width:600px) {
-    .course-card{
+
+@media screen and (max-width:700px) {
+    .course-card {
         flex-basis: 40%;
     }
-    .categories{
+
+    .categories {
         display: none;
     }
-    .navbar__s2, .navbar__s3{
+
+    .navbar__s2,
+    .navbar__s3 {
         display: none;
     }
-    .navbar__s4{
-        display:block ;
+
+    .navbar__s4 {
+        display: block;
     }
-    .navbar__s1__title{
+
+    .navbar__s1__title {
         font-size: 25px;
     }
-    .navbar{
+
+    .navbar {
         border: none;
-        
+
     }
-    .sale-image__offer{
+
+    .sale-image__offer {
         display: none;
     }
 }
